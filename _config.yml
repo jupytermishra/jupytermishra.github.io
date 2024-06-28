@@ -2,4 +2,4 @@ title: My Blog
 description: Welcome to my blog! This is where I share my thoughts and experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jupytermishra.github.io" # the base hostname & protocol for your site
-theme: none # we are creating a custom theme
+
