@@ -7,4 +7,4 @@ categories: blog
 
 # Welcome to my blog!
 
-This is my first post on my new blog powered by [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
+
