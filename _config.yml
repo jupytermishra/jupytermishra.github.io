@@ -6,5 +6,4 @@ url: "https://jupytermishra.github.io/" # the base hostname & protocol for your 
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title:output_ext
- site
 
