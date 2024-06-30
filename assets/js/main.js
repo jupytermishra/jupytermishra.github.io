@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Hello, Jekyll!");
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+    duration: 1200,
   });
-  
+});

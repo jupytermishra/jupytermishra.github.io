@@ -1,5 +1,14 @@
-title: My Blog
-description: Welcome to my blog! This is where I share my thoughts and experiences.
+title: Your Site Title
+description: >- # this means to ignore newlines until "baseurl:"
+  Your site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jupytermishra.github.io" # the base hostname & protocol for your site
+url: "https://jupytermishra.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title:output_ext
+ site
 

@@ -1,99 +1,67 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  header h1 a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .container {
-    margin: 2rem auto;
-    max-width: 800px;
-    padding: 0 1rem;
-  }
-  
-  .post {
-    margin-bottom: 2rem;
-  }
-  
-  .post h1 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .post .date {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
-  
-  footer {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-
-  .profile-photo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-  }
-  nav ul li {
-    margin: 0 15px;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #000;
-  }
-  section {
-    margin: 20px 0;
-  }
-  #posts ul {
-    list-style: none;
-    padding: 0;
-  }
-  #posts ul li {
-    margin: 10px 0;
-  }
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.main-header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.main-header h1 {
+  margin: 0;
+}
+.main-header nav ul {
+  list-style: none;
+  padding: 0;
+}
+.main-header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.main-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.section-alt {
+  background: #f4f4f4;
+}
+.section h2 {
+  margin-top: 0;
+}
+#posts ul {
+  list-style: none;
+  padding: 0;
+}
+#posts ul li {
+  margin: 10px 0;
+}
+[data-aos] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos].aos-animate {
+  opacity: 1;
+}

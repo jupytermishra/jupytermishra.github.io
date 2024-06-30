@@ -4,68 +4,63 @@ title: Home
 ---
 
 <div class="home">
-  <header>
-    <div class="profile-photo">
-      <img src="D:\Medium\jupytermishra.github.io\56.jpg" alt="jupytermishra">
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>[Brief introduction about yourself]</p>
     </div>
-    <h1>Welcome to [Your Name]'s Academic Page</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#teaching">Teaching</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>[Brief introduction about yourself]</p>
   </section>
 
-  <section id="research">
-    <h2>Research</h2>
-    <p>[Description of your research interests and projects]</p>
+  <section id="research" class="section section-alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Research</h2>
+      <p>[Description of your research interests and projects]</p>
+    </div>
   </section>
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li>[Publication 1]</li>
-      <li>[Publication 2]</li>
-      <li>[Publication 3]</li>
-      <!-- Add more publications as needed -->
-    </ul>
+  <section id="publications" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Publications</h2>
+      <ul>
+        <li>[Publication 1]</li>
+        <li>[Publication 2]</li>
+        <li>[Publication 3]</li>
+        <!-- Add more publications as needed -->
+      </ul>
+    </div>
   </section>
 
-  <section id="teaching">
-    <h2>Teaching</h2>
-    <ul>
-      <li>[Course 1]</li>
-      <li>[Course 2]</li>
-      <li>[Course 3]</li>
-      <!-- Add more courses as needed -->
-    </ul>
+  <section id="teaching" class="section section-alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Teaching</h2>
+      <ul>
+        <li>[Course 1]</li>
+        <li>[Course 2]</li>
+        <li>[Course 3]</li>
+        <!-- Add more courses as needed -->
+      </ul>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
-    <p>Office: [Office location]</p>
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
+      <p>Office: [Office location]</p>
+    </div>
   </section>
 
-  <section id="posts">
-    <h2>Latest Posts</h2>
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p>{{ post.excerpt }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+  <section id="posts" class="section section-alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Latest Posts</h2>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </section>
 </div>

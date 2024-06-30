@@ -1,10 +1,23 @@
----
-layout: default
----
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-  <div class="content">
-    {{ content }}
-  </div>
-</article>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+  {% include header.html %}
+  <main class="post-content" data-aos="fade-up">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.date | date: "%B %d, %Y" }}</p>
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
