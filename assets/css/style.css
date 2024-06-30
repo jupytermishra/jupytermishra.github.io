@@ -61,4 +61,39 @@ body {
     width: 100%;
     bottom: 0;
   }
-  
+
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  section {
+    margin: 20px 0;
+  }
+  #posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  #posts ul li {
+    margin: 10px 0;
+  }
