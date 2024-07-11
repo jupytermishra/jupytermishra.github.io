@@ -12,7 +12,7 @@ body {
 }
 .main-header {
   background: ##ffffff ;
-  color: #fff;
+  color: #000;
   padding: 20px 0;
 }
 .main-header .container {
@@ -38,7 +38,7 @@ body {
   margin: 0 10px;
 }
 .main-header nav ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
