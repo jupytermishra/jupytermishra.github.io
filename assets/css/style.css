@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 .main-header {
-  background: #333;
+  background: #10012d;
   color: #fff;
   padding: 20px 0;
 }
@@ -37,7 +37,7 @@ body {
   margin: 0 10px;
 }
 .main-header nav ul li a {
-  color: #10012d;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
