@@ -1,4 +1,5 @@
 body {
+  background-color: #10012d;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -65,3 +66,4 @@ body {
 [data-aos].aos-animate {
   opacity: 1;
 }
+
