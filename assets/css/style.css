@@ -11,7 +11,7 @@ body {
   margin: auto;
   overflow: hidden;
   padding: 20px;
-  text-align: left; /* Reset text alignment to left for container content */
+  text-align: center; /* Reset text alignment to left for container content */
 }
 
 .main-header {
