@@ -3,10 +3,8 @@ layout: default
 title: Home
 ---
 
-
 <style>
   body {
-    
     color: black; /* Adjust this if needed for better contrast */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -43,6 +41,27 @@ title: Home
   }
   a:hover {
     text-decoration: underline;
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .section {
+      padding: 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+    .section {
+      padding: 5px;
+    }
+    .social-logo {
+      width: 30px;
+      height: 30px;
+    }
   }
 </style>
 
